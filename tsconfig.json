@@ -1,0 +1,26 @@
+{
+    "include": [
+      "src"
+    ],
+    "compilerOptions": {
+      "lib": [
+        "es6",
+        "dom",
+        "dom.iterable"
+      ],
+      "outDir": "build",
+      "baseUrl": "./src",
+      "paths": {
+          "vkmcore": ["./index.ts"],
+          "vkmcore/*": ["./*.ts", "./*/index.ts"],
+      },
+      "resolveJsonModule": true,
+      "declaration": true,
+      "experimentalDecorators": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "target": "ES2020"
+    }
+}

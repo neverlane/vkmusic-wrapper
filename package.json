@@ -1,0 +1,25 @@
+{
+  "name": "vkmusic-wrapper",
+  "version": "2.0.0",
+  "description": "VK Music wrapper for api.vk.com",
+  "main": "build/vkmw.bundle.js",
+  "scripts": {
+    "prettie": "prettier -w ./src --config .prettierrc",
+    "build": "NODE_ENV=production node ./vkmw.build.mjs"
+  },
+  "dependencies": {
+    "vk-io": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "esbuild": "^0.13.9",
+    "typescript": "^4.4.4"
+  },
+  "keywords": [
+    "vk",
+    "music",
+    "wrapper"
+  ],
+  "author": "whyrinki",
+  "license": "MIT"
+}
